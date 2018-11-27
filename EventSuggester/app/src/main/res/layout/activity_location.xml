@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/SpotifyBlack"
+    android:theme="@style/SpotifyThemeNew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".LocationActivity">
+
+    <EditText
+        android:background="@color/SpotifyBlack"
+        android:id="@+id/location_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location_hint"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/recyclerView_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/location_error_message_display"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/location_error"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            android:layout_height="42dp"
+            android:layout_width="42dp"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</LinearLayout>

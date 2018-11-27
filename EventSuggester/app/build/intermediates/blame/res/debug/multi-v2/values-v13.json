@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/leefletcher1/GitProjects/EventSuggester/EventSuggester/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/leefletcher1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3a06116376ae5a6d4d5a64b979447c1d/res/values-v13/values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

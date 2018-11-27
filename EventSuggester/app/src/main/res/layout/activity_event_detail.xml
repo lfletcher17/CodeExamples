@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:background="@color/SpotifyBlack"
+        android:theme="@style/SpotifyThemeNew"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:context=".EventDetailActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/by_songkick_white"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/powered_by_songkick_white"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/ticket_info"
+            android:textSize="16sp"
+            android:background="@color/SpotifyBlack"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textColor="@color/SpotifyWhite"
+            android:layout_gravity="end"/>
+
+
+
+        </FrameLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout
+    android:background="@color/SpotifyBlack"
+    android:theme="@style/SpotifyThemeNew"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".EventDetailActivity"
+    >
+
+
+
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/event_description_title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/event_details"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyGreen"
+            android:paddingBottom="8dp"
+            />
+
+
+
+
+
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/event_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyWhite"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/venue_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/venue"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyGreen"
+            android:paddingBottom="8dp"
+            />
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/venue_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyWhite"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/date_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyGreen"
+            android:paddingBottom="8dp"
+            />
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/date_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyWhite"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            />
+
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/artists"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/artists"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyGreen"
+            android:paddingBottom="8dp"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:background="@color/SpotifyBlack"
+                android:id="@+id/recyclerView_eventDetailsPerformers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+
+
+        </FrameLayout>
+
+
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btn_add_to_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:padding="10dp"
+        android:text="@string/attend_event"
+        android:textColor="@color/SpotifyBlack"
+        android:textSize="18sp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

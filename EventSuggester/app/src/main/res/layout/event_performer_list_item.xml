@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingBottom="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/event_performer"
+            android:textColor="@color/SpotifyWhite"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/spotify_logo"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:src="@drawable/spotify_icon_green"
+        android:background="@color/SpotifyBlack"
+        android:layout_gravity="end"
+        />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+

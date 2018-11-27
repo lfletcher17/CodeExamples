@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191414</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="SpotifyGreen">#1ed760</color>
+    <color name="SpotifyWhite">#ffffff</color>
+    <color name="SpotifyBlack">#191414</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SpotifyTheme" parent="AppTheme" >
+    <item name="colorAccent">@color/SpotifyGreen</item>
+    <item name="colorPrimary">@color/SpotifyBlack</item>
+    <item name="colorPrimaryDark">@color/SpotifyBlack</item>
+    <item name="android:colorBackground">@color/SpotifyWhite</item>
+    <item name="android:colorForeground">@color/SpotifyBlack</item>
+    <item name="android:textColorPrimary">@color/SpotifyWhite</item>
+    <item name="android:textColorSecondary">@color/SpotifyWhite</item>
+    <item name="android:textColorSecondaryInverse">@color/SpotifyBlack</item>
+    <item name="android:windowBackground">@color/SpotifyBlack</item>
+</style>
+</resources>

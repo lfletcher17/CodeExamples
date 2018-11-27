@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/SpotifyBlack">
+
+
+    <TextView
+        android:id="@+id/location_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/location_desc"
+        android:textSize="20sp"
+        android:textColor="@color/SpotifyWhite"
+        android:layout_gravity="start"
+        android:visibility="invisible"
+        android:padding="16dp"
+        />
+
+
+
+        <Button
+            android:id="@+id/btn_current_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:text="@string/location_use_current"
+            android:textColor="@color/SpotifyBlack"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+         />
+
+        <Button
+            android:id="@+id/btn_manual_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:text="@string/location_manual"
+            android:textColor="@color/SpotifyBlack"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/location_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="@string/auto_location_error"
+        android:textColor="@color/SpotifyWhite"
+        android:layout_gravity="start"
+        android:padding="16dp"
+        android:visibility="invisible"
+        />
+
+    <!--<FrameLayout-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/spotify_green"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:src="@drawable/spotify_icon_green" />-->
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/by_songkick_white"-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="end"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:src="@drawable/powered_by_songkick_white" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/es_logo"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="end"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:src="@drawable/map" />-->
+
+    <!--</FrameLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/SpotifyBlack"
+        android:theme="@style/SpotifyThemeNew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/location_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_setting"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyGreen"
+            android:paddingBottom="8dp"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:background="@color/SpotifyBlack"
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/SpotifyWhite"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            />
+
+            <Button
+                android:id="@+id/btn_change_location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/change_location"
+                android:textSize="16sp"
+                android:background="@color/SpotifyBlack"
+                android:clickable="true"
+                android:textAllCaps="false"
+                android:textColor="@color/SpotifyGreen"
+                android:layout_gravity="end"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/SpotifyGreen"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/SpotifyBlack">
+
+    <TextView
+        android:id="@+id/spotify_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/spotify_error"
+        android:textSize="20sp"
+        android:textColor="@color/SpotifyWhite"
+        />
+
+    <Button
+        android:id="@+id/btn_try_again"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button_bg"
+        android:padding="10dp"
+        android:text="@string/try_again"
+        android:textColor="@color/SpotifyBlack"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+</LinearLayout>

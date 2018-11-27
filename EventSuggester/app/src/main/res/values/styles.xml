@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="SpotifyTheme" parent="AppTheme" >
+        <item name="colorAccent">@color/SpotifyGreen</item>
+        <item name="colorPrimary">@color/SpotifyBlack</item>
+        <item name="colorPrimaryDark">@color/SpotifyBlack</item>
+        <item name="android:colorBackground">@color/SpotifyWhite</item>
+        <item name="android:colorForeground">@color/SpotifyBlack</item>
+        <item name="android:textColorPrimary">@color/SpotifyWhite</item>
+        <item name="android:textColorSecondary">@color/SpotifyWhite</item>
+        <item name="android:textColorSecondaryInverse">@color/SpotifyBlack</item>
+        <item name="android:windowBackground">@color/SpotifyBlack</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="SpotifyThemeNew" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorAccent">@color/SpotifyGreen</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+</resources>

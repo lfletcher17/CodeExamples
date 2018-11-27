@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Event Suggester</string>
+    <string name="search">Search</string>
+    <string name="location_desc">Choose Location</string>
+    <string name="spotify_error">Unable to connect to Spotify, please check your network settings</string>
+    <string name="auto_location_error">Unable to find your location, please select \'enter location manually\'</string>
+    <string name="location_error">No location found, please try again</string>
+    <string name="location_hint">Enter a City name that you would like to see events for (e.g. London)</string>
+    <string name="event_error">No events found for your location</string>
+    <string name="location_find_me">FIND ME</string>
+    <string name="location_use_current">USE CURRENT LOCATION</string>
+    <string name="location_manual">ENTER LOCATION MANUALLY</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="find_events">FIND EVENTS</string>
+    <string name="event_open">MORE</string>
+    <string name="artists">Artists</string>
+    <string name="event_details">Details</string>
+    <string name="venue">Venue</string>
+    <string name="date">Date</string>
+    <string name="ticket_info">Ticket Info</string>
+    <string name="attend_event">Attend</string>
+    <string name="prev_month">Prev</string>
+    <string name="next_month">More Suggestions</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="location_id">null</string>
+    <string name="location_setting">Current Location</string>
+    <string name="change_location">Change</string>
+    <string name="logged_in_as">Logged In As</string>
+    <string name="log_out">Log Out</string>
+    <string name="my_events">My Events</string>
+
+
+</resources>
